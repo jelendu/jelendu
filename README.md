@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/LinkedIn-joanelendu-0A66C2?style=for-the-badge&logo=linkedin&labelColor=201A15" alt="LinkedIn"/>
   </a>
   <a href="mailto:joan_elendu@yahoo.com">
-    <img src="https://img.shields.io/badge/✉️_Email-say_hello-EBDCCB?style=for-the-badge&labelColor=201A15" alt="Email"/>
+    <img src="https://img.shields.io/badge/✉️_Email-say_hello-6001D2?style=for-the-badge&labelColor=201A15" alt="Email (Yahoo)"/>
   </a>
 </p>
 
@@ -62,24 +62,24 @@ My reconciliation engine commits fresh data to this account **every 30 minutes**
 ## 🧰 Toolbox
 
 **Languages & querying** &nbsp;
-<img src="https://img.shields.io/badge/Python-D97757?style=flat-square&logo=python&logoColor=F4E9DD" alt="Python"/>
-<img src="https://img.shields.io/badge/SQL-D97757?style=flat-square&logo=postgresql&logoColor=F4E9DD" alt="SQL"/>
-<img src="https://img.shields.io/badge/T--SQL_·_SQL_Server-D97757?style=flat-square&logo=databricks&logoColor=F4E9DD" alt="SQL Server"/>
+<img src="https://img.shields.io/badge/Python-D97757?style=flat-square&logo=python&logoColor=3776AB&labelColor=201A15" alt="Python"/>
+<img src="https://img.shields.io/badge/SQL-D97757?style=flat-square&logo=postgresql&logoColor=4169E1&labelColor=201A15" alt="SQL"/>
+<img src="https://img.shields.io/badge/T--SQL_·_SQL_Server-D97757?style=flat-square" alt="SQL Server"/>
 
 **Pipelines & modeling** &nbsp;
-<img src="https://img.shields.io/badge/dbt-B4552D?style=flat-square&logo=dbt&logoColor=F4E9DD" alt="dbt"/>
-<img src="https://img.shields.io/badge/DuckDB-B4552D?style=flat-square&logo=duckdb&logoColor=F4E9DD" alt="DuckDB"/>
-<img src="https://img.shields.io/badge/pandas-B4552D?style=flat-square&logo=pandas&logoColor=F4E9DD" alt="pandas"/>
-<img src="https://img.shields.io/badge/GitHub_Actions-B4552D?style=flat-square&logo=githubactions&logoColor=F4E9DD" alt="GitHub Actions"/>
-<img src="https://img.shields.io/badge/Microsoft_Fabric-B4552D?style=flat-square&logo=microsoft&logoColor=F4E9DD" alt="Microsoft Fabric"/>
+<img src="https://img.shields.io/badge/dbt-B4552D?style=flat-square" alt="dbt"/>
+<img src="https://img.shields.io/badge/DuckDB-B4552D?style=flat-square&logo=duckdb&logoColor=FFF000&labelColor=201A15" alt="DuckDB"/>
+<img src="https://img.shields.io/badge/pandas-B4552D?style=flat-square&logo=pandas&logoColor=E70488&labelColor=201A15" alt="pandas"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-B4552D?style=flat-square&logo=githubactions&logoColor=2088FF&labelColor=201A15" alt="GitHub Actions"/>
+<img src="https://img.shields.io/badge/Microsoft_Fabric-B4552D?style=flat-square" alt="Microsoft Fabric"/>
 
 **BI, apps & systems** &nbsp;
-<img src="https://img.shields.io/badge/Streamlit-7A4526?style=flat-square&logo=streamlit&logoColor=F4E9DD" alt="Streamlit"/>
-<img src="https://img.shields.io/badge/Power_BI-7A4526?style=flat-square&logo=googleanalytics&logoColor=F4E9DD" alt="Power BI"/>
-<img src="https://img.shields.io/badge/Tableau-7A4526?style=flat-square&logo=tableau&logoColor=F4E9DD" alt="Tableau"/>
-<img src="https://img.shields.io/badge/Salesforce-7A4526?style=flat-square&logo=salesforce&logoColor=F4E9DD" alt="Salesforce"/>
-<img src="https://img.shields.io/badge/NetSuite-7A4526?style=flat-square&logo=oracle&logoColor=F4E9DD" alt="NetSuite"/>
-<img src="https://img.shields.io/badge/Excel_·_Power_Query-7A4526?style=flat-square&logo=microsoftexcel&logoColor=F4E9DD" alt="Excel"/>
+<img src="https://img.shields.io/badge/Streamlit-7A4526?style=flat-square&logo=streamlit&logoColor=FF4B4B&labelColor=201A15" alt="Streamlit"/>
+<img src="https://img.shields.io/badge/Power_BI-7A4526?style=flat-square&logo=googleanalytics&logoColor=F2C811&labelColor=201A15" alt="Power BI"/>
+<img src="https://img.shields.io/badge/Tableau-7A4526?style=flat-square" alt="Tableau"/>
+<img src="https://img.shields.io/badge/Salesforce-7A4526?style=flat-square" alt="Salesforce"/>
+<img src="https://img.shields.io/badge/NetSuite-7A4526?style=flat-square" alt="NetSuite"/>
+<img src="https://img.shields.io/badge/Excel_·_Power_Query-7A4526?style=flat-square" alt="Excel"/>
 
 ## 📈 The paper trail
 
