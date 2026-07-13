@@ -1,0 +1,74 @@
+<svg viewBox="0 0 900 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Joanna Elendu — analytics, automation, applied machine learning. Animated dashboard banner.">
+  <style>
+    .name { font: 800 42px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #F4E9DD; letter-spacing: 1px; }
+    .sub  { font: 600 14px ui-monospace, 'Cascadia Mono', Consolas, monospace; fill: #D97757; letter-spacing: 5px; }
+    .live { font: 600 11px ui-monospace, Consolas, monospace; fill: #C9B9A5; letter-spacing: 1.5px; }
+    .chiptext { font: 700 11px ui-monospace, Consolas, monospace; fill: #F4E9DD; letter-spacing: 1px; }
+    .dot  { fill: #35C06F; animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 50% { opacity: .2; } }
+    .line {
+      fill: none; stroke: #D97757; stroke-width: 2.5; stroke-linecap: round;
+      stroke-dasharray: 560; stroke-dashoffset: 560;
+      animation: draw 2.4s ease-out forwards .3s;
+    }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .area { fill: #D97757; opacity: 0; animation: fadeArea 1.2s ease forwards 2.4s; }
+    @keyframes fadeArea { to { opacity: .13; } }
+    .tick { fill: #F4E9DD; opacity: 0; animation: pop .5s ease forwards 2.6s; }
+    @keyframes pop { to { opacity: 1; } }
+    .ring { fill: none; stroke: #D97757; stroke-width: 2; opacity: 0; animation: ringpulse 2.2s ease-out infinite 2.8s; }
+    @keyframes ringpulse { 0% { opacity: .8; r: 5; } 100% { opacity: 0; r: 14; } }
+    .chip { opacity: 0; animation: rise .7s ease forwards; }
+    .chip.c1 { animation-delay: 2.7s; } .chip.c2 { animation-delay: 3.0s; } .chip.c3 { animation-delay: 3.3s; }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    .gridline { stroke: #3A2E23; stroke-width: 1; }
+    .scan {
+      fill: #F4E9DD; opacity: .05; transform: translateX(-340px);
+      animation: scan 7s linear infinite 3.5s;
+    }
+    @keyframes scan { from { transform: translateX(-340px); } to { transform: translateX(340px); } }
+  </style>
+
+  <!-- backdrop -->
+  <rect width="900" height="230" rx="14" fill="#201A15"/>
+  <rect x="1.5" y="1.5" width="897" height="227" rx="13" fill="none" stroke="#3A2E23" stroke-width="1.5"/>
+
+  <!-- left: identity -->
+  <text class="name" x="48" y="98">JOANNA ELENDU</text>
+  <text class="sub"  x="50" y="132">ANALYTICS · AUTOMATION · APPLIED ML</text>
+  <g>
+    <rect x="48" y="156" width="308" height="30" rx="15" fill="#2A211A" stroke="#3A2E23"/>
+    <circle class="dot" cx="66" cy="171" r="4.5"/>
+    <text class="live" x="80" y="175">LIVE — MY PIPELINES ARE RUNNING RIGHT NOW</text>
+  </g>
+
+  <!-- right: dashboard panel -->
+  <g>
+    <rect x="520" y="26" width="340" height="128" rx="10" fill="#261F18" stroke="#3A2E23"/>
+    <clipPath id="panelclip"><rect x="520" y="26" width="340" height="128" rx="10"/></clipPath>
+    <g clip-path="url(#panelclip)">
+      <line class="gridline" x1="534" y1="66"  x2="846" y2="66"/>
+      <line class="gridline" x1="534" y1="96"  x2="846" y2="96"/>
+      <line class="gridline" x1="534" y1="126" x2="846" y2="126"/>
+      <path class="area" d="M 540 132 L 574 118 L 608 124 L 642 102 L 676 108 L 710 84 L 744 92 L 778 64 L 826 48 L 826 146 L 540 146 Z"/>
+      <path class="line" d="M 540 132 L 574 118 L 608 124 L 642 102 L 676 108 L 710 84 L 744 92 L 778 64 L 826 48"/>
+      <circle class="tick" cx="826" cy="48" r="4.5"/>
+      <circle class="ring" cx="826" cy="48" r="5"/>
+      <rect class="scan" x="520" y="26" width="70" height="128"/>
+    </g>
+  </g>
+
+  <!-- KPI chips -->
+  <g class="chip c1">
+    <rect x="520" y="166" width="106" height="30" rx="15" fill="#D97757"/>
+    <text class="chiptext" x="536" y="185">43 TESTS ✓</text>
+  </g>
+  <g class="chip c2">
+    <rect x="636" y="166" width="130" height="30" rx="15" fill="#B4552D"/>
+    <text class="chiptext" x="652" y="185">30-MIN REFRESH</text>
+  </g>
+  <g class="chip c3">
+    <rect x="776" y="166" width="84" height="30" rx="15" fill="#7A4526"/>
+    <text class="chiptext" x="792" y="185">4 CHECKS</text>
+  </g>
+</svg>

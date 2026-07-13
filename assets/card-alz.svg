@@ -1,0 +1,47 @@
+<svg viewBox="0 0 440 210" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Emotion-aware music for Alzheimer's care — hands-free, runs fully in the browser.">
+  <style>
+    .repo  { font: 500 11px ui-monospace, Consolas, monospace; fill: #8E8272; }
+    .title { font: 800 21px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #201A15; }
+    .desc  { font: 400 12.5px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #5A5147; }
+    .pill  { font: 700 10px ui-monospace, Consolas, monospace; fill: #F4E9DD; letter-spacing: 1px; }
+    .livet { font: 700 10px ui-monospace, Consolas, monospace; fill: #006300; letter-spacing: 1px; }
+    .dot   { fill: #35C06F; animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 50% { opacity: .2; } }
+    .eq { fill: #D97757; transform-box: fill-box; transform-origin: 50% 100%; }
+    .eq.b1 { animation: bounce 1.1s ease-in-out infinite alternate; }
+    .eq.b2 { animation: bounce 0.9s ease-in-out infinite alternate .15s; }
+    .eq.b3 { animation: bounce 1.3s ease-in-out infinite alternate .05s; }
+    .eq.b4 { animation: bounce 0.8s ease-in-out infinite alternate .25s; }
+    .eq.b5 { animation: bounce 1.2s ease-in-out infinite alternate .1s; }
+    @keyframes bounce { from { transform: scaleY(.25); } to { transform: scaleY(1); } }
+  </style>
+
+  <rect x="1.5" y="1.5" width="437" height="207" rx="12" fill="#F4E9DD" stroke="#E2D5C2" stroke-width="2"/>
+
+  <text class="repo" x="24" y="34">jelendu / face-emotion-detection-alzheimers</text>
+  <g>
+    <rect x="330" y="20" width="86" height="22" rx="11" fill="#E5F3E5"/>
+    <circle class="dot" cx="344" cy="31" r="4"/>
+    <text class="livet" x="353" y="35">DEMO ▸</text>
+  </g>
+
+  <text class="title" x="24" y="72">Emotion-Aware Music · Alzheimer's</text>
+  <text class="desc" x="24" y="97">A webcam reads the face; matching music plays itself.</text>
+  <text class="desc" x="24" y="114">Built for patients, not users — no buttons, ever. Started</text>
+  <text class="desc" x="24" y="131">during a Samsung ML fellowship.</text>
+
+  <g>
+    <rect class="eq b1" x="26"  y="152" width="9" height="36" rx="2.5"/>
+    <rect class="eq b2" x="41"  y="152" width="9" height="36" rx="2.5"/>
+    <rect class="eq b3" x="56"  y="152" width="9" height="36" rx="2.5"/>
+    <rect class="eq b4" x="71"  y="152" width="9" height="36" rx="2.5"/>
+    <rect class="eq b5" x="86"  y="152" width="9" height="36" rx="2.5"/>
+  </g>
+
+  <g>
+    <rect x="234" y="162" width="120" height="26" rx="13" fill="#D97757"/>
+    <text class="pill" x="248" y="179">100% CLIENT-SIDE</text>
+    <rect x="362" y="162" width="54" height="26" rx="13" fill="#7A4526"/>
+    <text class="pill" x="372" y="179">ONNX</text>
+  </g>
+</svg>

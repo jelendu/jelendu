@@ -1,0 +1,43 @@
+<svg viewBox="0 0 440 210" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Remit Reconciliation Engine — live app, 43 tests, refreshes every 30 minutes.">
+  <style>
+    .repo  { font: 500 11px ui-monospace, Consolas, monospace; fill: #8E8272; }
+    .title { font: 800 21px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #201A15; }
+    .desc  { font: 400 12.5px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #5A5147; }
+    .pill  { font: 700 10px ui-monospace, Consolas, monospace; fill: #F4E9DD; letter-spacing: 1px; }
+    .livet { font: 700 10px ui-monospace, Consolas, monospace; fill: #006300; letter-spacing: 1.5px; }
+    .dot   { fill: #35C06F; animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 50% { opacity: .2; } }
+    .spark {
+      fill: none; stroke: #D97757; stroke-width: 2; stroke-linecap: round;
+      stroke-dasharray: 220; stroke-dashoffset: 220;
+      animation: draw 2s ease-out forwards .4s;
+    }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .sparkdot { fill: #B4552D; opacity: 0; animation: pop .4s ease forwards 2.3s; }
+    @keyframes pop { to { opacity: 1; } }
+  </style>
+
+  <rect x="1.5" y="1.5" width="437" height="207" rx="12" fill="#F4E9DD" stroke="#E2D5C2" stroke-width="2"/>
+
+  <text class="repo" x="24" y="34">jelendu / remit-reconciliation-engine</text>
+  <g>
+    <rect x="352" y="20" width="64" height="22" rx="11" fill="#E5F3E5"/>
+    <circle class="dot" cx="366" cy="31" r="4"/>
+    <text class="livet" x="375" y="35">LIVE</text>
+  </g>
+
+  <text class="title" x="24" y="72">Remit Reconciliation Engine</text>
+  <text class="desc" x="24" y="97">A billing feed that changes every cycle, reconciled by a</text>
+  <text class="desc" x="24" y="114">tested SQL pipeline — 4 checks per account, duplicate repair</text>
+  <text class="desc" x="24" y="131">with an audit trail, exceptions routed to a human.</text>
+
+  <polyline class="spark" points="24,182 52,174 80,178 108,164 136,170 164,154 192,160 220,146"/>
+  <circle class="sparkdot" cx="220" cy="146" r="3.5"/>
+
+  <g>
+    <rect x="252" y="162" width="82" height="26" rx="13" fill="#D97757"/>
+    <text class="pill" x="266" y="179">43 TESTS ✓</text>
+    <rect x="342" y="162" width="74" height="26" rx="13" fill="#B4552D"/>
+    <text class="pill" x="354" y="179">30-MIN ↻</text>
+  </g>
+</svg>
