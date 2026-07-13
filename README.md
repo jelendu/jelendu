@@ -1,7 +1,7 @@
 <img src="assets/hero-dashboard.svg" alt="Joanna Elendu — Analytics · Automation · Applied ML. Animated dashboard: a line chart draws itself, a live feed pulses, KPI chips rise in." width="100%"/>
 
 <p align="center">
-  <a href="https://jelendu.github.io/face-emotion-detection-alzheimers/">
+  <a href="https://jelendu.github.io/">
     <img src="https://img.shields.io/badge/📌_Portfolio-Evidence_Board-D97757?style=for-the-badge&labelColor=201A15" alt="Portfolio — Evidence Board"/>
   </a>
   <a href="https://remit-reconciliation-engine.streamlit.app/">
